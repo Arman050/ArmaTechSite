@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ArmaTech — Développeur .NET & Angular</title>
+  <meta name="description" content="CV en ligne — Présentation, réalisations, formations et contact." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="brand" aria-label="Accueil">Arma<span>Tech</span></a>
+
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="site-nav">
+      <a href="#presentation" class="nav-link">Présentation</a>
+      <a href="#realisations" class="nav-link">Réalisations</a>
+      <a href="#formations" class="nav-link">Etudes</a>
+      <a href="#contact" class="nav-link cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Présentation / Hero -->
+  <section id="presentation" class="section hero">
+    <div class="container">
+      <div class="hero-left">
+        <h1 id="name">Avetissian Arman</h1>
+        <h2 class="title">Développeur Front-End et Back-End</h2>
+        <p class="muted">Bruxelles, Belgique</p>
+        <p class="about">
+          Développeur .NET & Angular, je crée des applications web modernes, performantes et adaptées aux besoins des utilisateurs. Passionné par la technologie, j’allie design soigné et code structuré pour transformer chaque projet en solution concrète et efficace.
+        </p>
+        <div class="chips" id="skills">
+          <span class="chip">HTML / CSS</span>
+          <span class="chip">Angular</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Blazor</span>
+          <span class="chip">.NET</span>
+          <span class="chip">API RESTful</span>
+          <span class="chip">GIT</span>
+          <span class="chip">SQL</span>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="avatar" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Réalisations -->
+  <section id="realisations" class="section">
+    <div class="container">
+      <h2>Mes réalisations</h2>
+      <div class="grid" id="projects">
+        <!-- Injecté via app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Formations -->
+  <section id="formations" class="section">
+    <div class="container">
+      <h2>Etudes et Formations</h2>
+      <ul class="timeline" id="education">
+        <!-- Injecté via app.js -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+<!--  <section id="contact" class="section">-->
+<!--    <div class="container">-->
+<!--      <h2>Contact</h2>-->
+<!--      <p class="muted">N’hésitez pas à me contacter pour une opportunité ou une collaboration.</p>-->
+
+<!--      <form action="https://api.web3forms.com/submit" method="POST" class="card">-->
+
+<!--        &lt;!&ndash; Clé d'accès Web3Forms &ndash;&gt;-->
+<!--        <input type="hidden" name="access_key" value="657c96a3-57ad-4d65-98a4-13d4bf28bf5d">-->
+
+<!--        <div class="grid two">-->
+<!--          <div class="field">-->
+<!--            <label for="nameInput">Nom</label>-->
+<!--            <input id="nameInput" name="name" type="text" placeholder="Votre nom" required minlength="2" />-->
+<!--          </div>-->
+<!--          <div class="field">-->
+<!--            <label for="emailInput">Email</label>-->
+<!--            <input id="emailInput" name="email" type="email" placeholder="vous@exemple.com" required />-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="field">-->
+<!--          <label for="subjectInput">Sujet</label>-->
+<!--          <input id="subjectInput" name="subject" type="text" placeholder="Objet de votre message" required minlength="3" />-->
+<!--        </div>-->
+
+<!--        <div class="field">-->
+<!--          <label for="messageInput">Message</label>-->
+<!--          <textarea id="messageInput" name="message" rows="6" placeholder="Bonjour…" required minlength="10"></textarea>-->
+<!--        </div>-->
+
+<!--        &lt;!&ndash; Redirection après succès &ndash;&gt;-->
+<!--        <input type="hidden" name="redirect" value="https://web3forms.com/success">-->
+
+<!--        <button type="submit" class="btn">Envoyer</button>-->
+<!--      </form>-->
+<!--    </div>-->
+<!--  </section>-->
+
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-wrap">
+        <!-- Panneau info -->
+        <aside class="contact-side">
+          <h2>Travaillons ensemble</h2>
+          <p class="muted">Un projet en tête ? Discutons-en. Je réponds sous 24h.</p>
+
+          <ul class="contact-meta">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 12c2.21 0 4-1.79 4-4S14.21 4 12 4S8 5.79 8 8s1.79 4 4 4m0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4"/></svg>
+              Bruxelles, Belgique
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 12.713L.015 6L12-.713L23.985 6zM12 14L0 7v11l12 7l12-7V7z"/></svg>
+              contact@exemple.com
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.5 3h-15A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3m-1 12.88a.62.62 0 0 1-.62.62H6.12a.62.62 0 0 1-.62-.62V8.12c0-.34.28-.62.62-.62h11.76c.34 0 .62.28.62.62z"/></svg>
+              Disponible en freelance
+            </li>
+          </ul>
+
+          <div class="badges">
+            <span class="badge">.NET</span>
+            <span class="badge">Angular</span>
+            <span class="badge">API</span>
+            <span class="badge">UI/UX</span>
+          </div>
+        </aside>
+
+        <!-- Formulaire -->
+        <div class="contact-main">
+          <form
+                  id="contact-form"
+                  class="card form-pro"
+                  action="https://api.web3forms.com/submit"
+                  method="POST"
+                  aria-describedby="contact-hint"
+          >
+            <!-- Web3Forms -->
+            <input type="hidden" name="access_key" value="657c96a3-57ad-4d65-98a4-13d4bf28bf5d" />
+            <input type="hidden" name="subject" value="Nouveau message via le site ArmaTech" />
+            <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none" />
+            <input type="hidden" name="redirect" value="" />
+
+            <div class="grid two">
+              <div class="field floating">
+                <input id="nameInput" name="name" type="text" required autocomplete="name" placeholder=" " />
+                <label for="nameInput">Nom <span aria-hidden="true" class="req">*</span></label>
+                <small class="field-msg" id="err-name" hidden>Veuillez entrer un nom valide (min. 2 caractères).</small>
+              </div>
+
+              <div class="field floating">
+                <input id="emailInput" name="email" type="email" required autocomplete="email" placeholder=" " />
+                <label for="emailInput">Email <span aria-hidden="true" class="req">*</span></label>
+                <small class="field-msg" id="err-email" hidden>Adresse email invalide.</small>
+              </div>
+            </div>
+
+            <div class="grid two">
+              <div class="field floating">
+                <input id="phoneInput" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder=" " />
+                <label for="phoneInput">Téléphone (optionnel)</label>
+                <small class="field-msg" id="err-phone" hidden>Numéro non valide.</small>
+              </div>
+
+              <div class="field floating">
+                <input id="subjectInput" name="subject_line" type="text" required minlength="3" placeholder=" " />
+                <label for="subjectInput">Sujet <span aria-hidden="true" class="req">*</span></label>
+                <small class="field-msg" id="err-subject" hidden>Sujet trop court.</small>
+              </div>
+            </div>
+
+            <div class="field floating">
+              <textarea id="messageInput" name="message" rows="6" required minlength="10" placeholder=" "></textarea>
+              <label for="messageInput">Message <span aria-hidden="true" class="req">*</span></label>
+              <small id="contact-hint" class="hint">Je réponds généralement sous 24h.</small>
+              <small class="field-msg" id="err-message" hidden>Message trop court.</small>
+            </div>
+
+            <div class="consent">
+              <input type="checkbox" id="consent" required />
+              <label for="consent">J’accepte que mes informations soient utilisées pour répondre à ma demande.</label>
+            </div>
+
+            <button type="submit" class="btn btn-accent" id="sendBtn">
+              <span class="spinner" aria-hidden="true"></span>
+              <span>Envoyer</span>
+            </button>
+
+            <!-- États globaux -->
+            <p class="form-state sending" id="state-sending" aria-live="polite" hidden>Envoi en cours…</p>
+            <p class="form-state success" id="state-success" aria-live="polite" hidden>Merci ! Votre message a été envoyé ✅</p>
+            <p class="form-state error" id="state-error" aria-live="assertive" hidden>Oups… une erreur est survenue. Réessayez.</p>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> ArmaTech — Tous droits réservés.</p>
+    <div class="links">
+      <a href="mailto:contact@exemple.com">contact@exemple.com</a>
+      <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
