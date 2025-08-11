@@ -51,9 +51,9 @@ const PROJECTS = [
 
 
 const EDUCATION = [
-    { degree: 'C.E.S.S', school: 'Saint-Laurent', period: '2019 — 2023', details: 'Histoire et géographie, Anglais, Néerlandais' },
-    { degree: 'Formation en algorithme et Python', school: 'Technobel', period: '03/2024 - 04/2024', details: 'Introduction sur Python et algorithme' },
     { degree: 'Formation développeur ASP.NET et Angular', school: 'Technobel', period: '2024 – 2025', details: 'Formation sur le développement en ASP.NET et Angular' },
+    { degree: 'Formation en algorithme et Python', school: 'Technobel', period: '03/2024 - 04/2024', details: 'Introduction sur Python et algorithme' },
+    { degree: 'C.E.S.S', school: 'Saint-Laurent', period: '2019 — 2023', details: 'Histoire et géographie, Anglais, Néerlandais' }
 ];
 
 // ====== Helpers DOM ======
