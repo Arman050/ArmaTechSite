@@ -2,7 +2,7 @@
 const PROJECTS = [
     {
         title: 'BattleChain Academy',
-        description: "Application sur l'investissement en cryptomonnaie",
+        description: "App sur l'investissement en cryptomonnaie",
         stack: ['Angular','.Net','API','POSTGRESQL'],
         link: '#',
         image: 'images/battlechain.png'
@@ -42,7 +42,7 @@ const PROJECTS = [
           <h3>${p.title}</h3>
           <p class="muted">${p.description}</p>
           <div class="stack">${p.stack.map(t=>`<span class="pill">${t}</span>`).join('')}</div>
-          ${p.link ? `<a href="${p.link}" target="_blank" rel="noopener" class="btn">Voir le projet</a>` : ''}
+          ${p.link ? `<a href="${p.link}" target="_blank" rel="noopener" class="btn">Voir le projet ( bientôt disponible )</a>` : ''}
         </div>
       </article>
     `;
