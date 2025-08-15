@@ -281,3 +281,17 @@ section:nth-of-type(even) {
     box-shadow: 0 0 0 4px rgba(93,76,222,.22), 0 12px 40px rgba(0,0,0,.45);
     border-color: color-mix(in oklab, var(--primary) 35%, var(--border));
 }
+
+.brand img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.brand {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white; /* ou ta couleur */
+}
+.brand span {
+    color: #4e6ef2; /* couleur du 'Tech' */
+}
